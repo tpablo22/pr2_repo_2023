@@ -1,8 +1,13 @@
 package aplicacion;
 import mates.*;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println(Matematicas.generarNumeroPiIterativo(10000000));
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Elija un numero para calcular pi por momtecarlo: ");
+        double montecar = sc.nextDouble();
+
+        System.out.println("El número PI es "+Matematicas.generarNumeroPiIterativo(montecar));
     }
 }
