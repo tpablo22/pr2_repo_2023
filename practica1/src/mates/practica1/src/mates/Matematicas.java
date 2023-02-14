@@ -1,5 +1,4 @@
-package mates;
-import java.lang.Math;
+package mates.practica1.src.mates;
 
 public class Matematicas {
     public static double generarNumeroPiIterativo(double pasos){
@@ -16,15 +15,6 @@ public class Matematicas {
             }
         }return areaCuadrado*(aciertos/pasos);
 
-
-    }
-    public static int sumatorio(int numero) {
-        if (numero == 0) {
-            return 0;
-        } else {
-
-           return numero + sumatorio(numero-1);
-        }
 
     }
 }
