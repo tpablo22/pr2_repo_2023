@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ej_listapar/ej_listapar.iml" filepath="$PROJECT_DIR$/ej_listapar/ej_listapar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ejer_1/ejer_1.iml" filepath="$PROJECT_DIR$/ejer_1/ejer_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/pr2_repo_2023.iml" filepath="$PROJECT_DIR$/pr2_repo_2023.iml" />
       <module fileurl="file://$PROJECT_DIR$/practica1/practica1.iml" filepath="$PROJECT_DIR$/practica1/practica1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practica1/test/test.iml" filepath="$PROJECT_DIR$/practica1/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test1/test1.iml" filepath="$PROJECT_DIR$/test1/test1.iml" />
     </modules>
   </component>
 </project>

@@ -1,5 +1,4 @@
 package mates;
-import java.lang.Math;
 
 public class Matematicas {
     public static double generarNumeroPiIterativo(double pasos){
@@ -20,10 +19,10 @@ public class Matematicas {
     }
     public static int sumatorio(int numero) {
         if (numero == 0) {
-            return 1;
+            return 0;
         } else {
 
-           return numero * sumatorio(numero-1);
+           return numero + sumatorio(numero-1);
         }
 
     }
