@@ -1,8 +1,8 @@
 package aplicacion;
+import dominio.*;
+
 import java.util.concurrent.TimeUnit;
 import java.lang.InterruptedException;
-import dominio.Tablero;
-
 
 public class Main {
     public static void main(String[]args){
@@ -29,9 +29,9 @@ public class Main {
                 TimeUnit.SECONDS.sleep(1);
                 tablero.transitarAlEstadoSiguiente();
                 System.out.println(tablero);
-                }
-            }catch(InterruptedException e){
-        System.out.println(e);
+            }
+        }catch(InterruptedException e){
+            System.out.println(e);
         }
     }
 }
