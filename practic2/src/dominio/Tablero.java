@@ -51,11 +51,11 @@ public class Tablero {
         }
         return contador;
     }
-            public void generarEstadoActualPorMontecarlo() {
+    public void generarEstadoActualPorMontecarlo() {
 
-        for (int i = 0; i < DIMENSION; i++) {
-            for (int j = 0; j < DIMENSION; j++) {
-                estadoActual[i+1][j+1] = (int) Math.round(Math.random());
+        for (int i = 1; i < DIMENSION+1; i++) {
+            for (int j = 1; j < DIMENSION+1; j++) {
+                estadoActual[i][j] = (int) Math.round(Math.random());
             }
         }
 
@@ -74,6 +74,7 @@ public class Tablero {
             }
         }
     }
+
 
 
     public void transitarAlEstadoSiguiente () {
